@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+   <head>
+    <meta charset="utf-8">
+     <title>圣诞节</title>
+      <style> 
+
+         body {
+            background: #ffffff;
+         }
+
+         #canvas {
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            margin: 20px;
+            background: url('images/image.jpg');
+            border: thin solid #aaaaaa;
+         }
+      </style>
+   </head>
+
+  <body>
+  <audio src="videos/video.mp3" autoplay="true">
+  </audio>
+    <canvas id='canvas' width='900' height='900'>
+    </canvas>
+    <script src='requestNextAnimationFrame.js'></script>
+    <script src='sprites.js'></script>
+    <script src='example.js' ></script>
+  </body>
+</html>
